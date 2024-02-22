@@ -18,7 +18,7 @@ variable "custom_iam_instance_profile" {
 variable "allocated_storage" {
   description = "The allocated storage in gigabytes"
   type        = number
-  default     = 250
+  default     = 20
 }
 
 variable "storage_type" {
